@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Personal Profile</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Heading -->
+        <h1>🌟 My Interactive Profile</h1>
+
+        <p class="subtitle">
+            Create your personal profile by entering your details!
+        </p>
+
+
+        <!-- Personal Information -->
+        <div class="input-section">
+
+            <h2>👤 Personal Information</h2>
+
+            <label for="name">Your Name:</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+
+            <label for="age">Your Age:</label>
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter your age"
+            >
+
+
+            <label for="color">Your Favorite Color:</label>
+            <input
+                type="text"
+                id="color"
+                placeholder="Example: Blue"
+            >
+
+
+            <!-- Favorite Color Preview -->
+            <div id="colorPreview" class="color-preview">
+                🎨 Your favorite color will appear here
+            </div>
+
+
+            <!-- Calculator -->
+            <h2>🔢 Two Number Calculator</h2>
+
+            <label for="number1">First Number:</label>
+            <input
+                type="number"
+                id="number1"
+                placeholder="Enter first number"
+            >
+
+
+            <label for="number2">Second Number:</label>
+            <input
+                type="number"
+                id="number2"
+                placeholder="Enter second number"
+            >
+
+
+            <!-- Buttons -->
+            <button id="generateButton">
+                ✨ Generate My Profile
+            </button>
+
+            <button id="themeButton">
+                🌙 Dark Mode
+            </button>
+
+        </div>
+
+
+        <!-- Generated Profile -->
+        <div id="profile" class="profile">
+
+            <h2>👋 Your Profile</h2>
+
+            <p id="welcome"></p>
+
+            <p id="greeting"></p>
+
+            <p id="profileAge"></p>
+
+            <p id="profileColor"></p>
+
+
+            <!-- Calculator Results -->
+            <h3>🧮 Calculator Results</h3>
+
+            <p id="addition"></p>
+
+            <p id="subtraction"></p>
+
+            <p id="multiplication"></p>
+
+            <p id="division"></p>
+
+        </div>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
